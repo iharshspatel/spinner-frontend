@@ -1,10 +1,12 @@
 {
   "name": "spinner_frontend",
-  "homepage":"",
-  "private": true,
+  "homepage":"https://iharshspatel.github.io/spinner-frontend/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
